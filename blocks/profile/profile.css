@@ -1,0 +1,9 @@
+.profile {
+  margin-top: 40px;
+  width: 880px;
+  height: 120px;
+  /* position: relative; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

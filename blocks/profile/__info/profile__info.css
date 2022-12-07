@@ -1,0 +1,11 @@
+.profile__info {
+  width: 373px;
+  height: 74px;
+  /* position: absolute;
+  left: 150px;
+  top: 22px; */
+  display: flex;
+  flex-direction: column;
+  align-self: baseline;
+  margin-top: 23px;
+}
