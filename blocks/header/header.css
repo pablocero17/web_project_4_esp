@@ -1,5 +1,10 @@
 .header {
-  margin-top: 45px;
-  width: 880px;
-  height: 74px;
+  margin: 48px 0 40px;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7); /*Linea de encabezado*/
+}
+
+@media screen and (max-width: 636px) {
+  .header {
+    margin: 28px 0 42px;
+  }
 }
