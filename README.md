@@ -1,16 +1,30 @@
 # Proyecto 4: Alrededor de los Estados Unidos
 
+**Elaborado por: Pablo César Rodríguez Vargas**
+
 ### Descripción general
 
-* Figma
-* Imágenes
+Alrededores de U.S. es un proyecto producirá una página interactiva en varios sprints donde los usuarios pueden agregar, eliminar o dar me gusta a las fotos.
 
 **Figma**
 
-* [Enlace al proyecto en Figma](https://www.figma.com/file/LDMgqWesKpQkIwhOfEBuTS/WEB%2C-Sprint-5%3A-Around-The-U.S.-%7C-desktop-%2B-mobile?node-id=0%3A1)
+En el siguiente enlace pueden acceder al Figma donde se basa el diseño:
 
-**Imágenes**
+- [Enlace al proyecto en Figma](https://www.figma.com/file/LDMgqWesKpQkIwhOfEBuTS/WEB%2C-Sprint-5%3A-Around-The-U.S.-%7C-desktop-%2B-mobile?node-id=0%3A1)
 
-A la hora de trabajar, debes optar por exportar las imágenes directamente desde Figma; te recomendamos hacerlo para practicar más. No olvides optimizarlas [aquí](https://tinypng.com/), para que tu proyecto cargue más rápido. 
+### Funcionalidad y tecnologías demostradas
 
-¡Esperamos que te diviertas con JavaScript!
+- Trabajando con Figma
+- Metodología BEM en las clases
+- Estructura de archivos BEM anidados
+- Adición de fuentes (fonts)
+- Optimización de imágenes
+- CSS Grid
+- Flexbox
+- Diseño responsivo/adaptativo
+- Ventana emergente modal (popup) con formulario
+- Interactividad a través de JavaScript
+
+### GitPage
+
+En el siguiente enlace puede acceder a la página GitPage:
