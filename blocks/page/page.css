@@ -9,10 +9,5 @@ body {
 
 .page {
   max-width: 880px;
-  /* max-width: 1280px;
-  min-width: 320px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; */
   margin: 0 auto;
 }

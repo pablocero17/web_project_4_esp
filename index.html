@@ -17,37 +17,35 @@
     <div class="page">
       <header class="header">
         <img
+          class="logo"
           src="./images/around_us_logo.svg"
           alt="Around the U.S. Logo"
-          class="logo"
         />
       </header>
 
       <main class="content">
         <section class="profile">
           <img
-            src="./images/profile.jpg"
-            alt="Profile Photo"
             class="profile__avatar"
+            src="./images/profile.jpg"
+            alt="Profile Avatar Image"
           />
           <div class="profile__info">
-            <div class="profile__content">
-              <h2 class="profile__name">Jacques Cousteau</h2>
-              <img
-                src="./images/edit_button.svg"
-                alt="edit info"
-                class="profile__edit"
-              />
+            <div class="profile__name-container">
+              <h2 class="profile__name-text">Jacques Cousteau</h2>
             </div>
-
-            <h3 class="profile__skill">Explorador</h3>
+            <button
+              type="button"
+              aria-label="Edit Profile"
+              class="profile__edit"
+            ></button>
+            <h3 class="profile__description">Explorador</h3>
           </div>
-
-          <img
-            src="./images/add_button.svg"
-            alt="Add profile"
+          <button
+            type="button"
+            aria-label="Add Photo Card"
             class="profile__add"
-          />
+          ></button>
         </section>
 
         <section class="elements">
