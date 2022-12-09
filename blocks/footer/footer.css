@@ -1,6 +1,20 @@
 .footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 282px);
+  grid-template-rows: auto;
+  grid-gap: 20px 17px;
   padding: 0;
-  margin-top: 68px;
-  margin-left: 200px;
-  align-self: flex-start;
+  margin: 68px auto 60px;
+}
+
+@media screen and (max-width: 919px) {
+  .footer {
+    max-width: calc(100% - 38px);
+  }
+}
+
+@media screen and (max-width: 636px) {
+  .footer {
+    margin: 48px auto 36px;
+  }
 }
