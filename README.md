@@ -28,3 +28,5 @@ En el siguiente enlace pueden acceder al Figma donde se basa el diseño:
 ### GitPage
 
 En el siguiente enlace puede acceder a la página GitPage:
+
+- [Enlace de la página](https://pablocero17.github.io/web_project_4_esp/)
