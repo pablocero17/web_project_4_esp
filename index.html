@@ -5,34 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Around The U.S.</title>
     <link rel="stylesheet" href="pages/index.css" />
-    <meta name="Project Spring 4" content="Pablo Cesar Rodriguez's Project at Practicum" />
+    <meta
+      name="Project Spring 4"
+      content="Pablo Cesar Rodriguez's Project at Practicum"
+    />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <meta name="author" content="Pablo César Rodríguez Vargas" />
   </head>
   <body class="page">
     <div class="page__container">
       <header class="header">
-        <img class="logo" src="images/around_us_logo.svg" alt="Around the U.S. Logo" />
+        <img
+          class="logo"
+          src="images/around_us_logo.svg"
+          alt="Around the U.S. Logo"
+        />
       </header>
 
       <main class="content">
         <section class="profile">
-          <img class="profile__avatar" src="images/avatar.jpg" alt="Profile Avatar Image" />
+          <img
+            class="profile__avatar"
+            src="images/avatar.jpg"
+            alt="Profile Avatar Image"
+          />
           <div class="profile__info">
             <div class="profile__name-container">
               <h1 class="profile__name-text">Jacques Cousteau</h1>
             </div>
-            <button class="profile__edit" type="button" aria-label="Editar perfil"></button>
+            <button
+              class="profile__edit"
+              type="button"
+              aria-label="Editar perfil"
+            ></button>
             <p class="profile__description">Explorador</p>
           </div>
-          <button class="profile__add" type="button" aria-label="Agregar Foto"></button>
+          <button
+            class="profile__add"
+            type="button"
+            aria-label="Agregar Foto"
+          ></button>
         </section>
 
         <section class="photo-cards">
-          <ul class="photo-cards__group">
-          </ul>
+          <ul class="photo-cards__group"></ul>
         </section>
-
       </main>
 
       <footer class="footer">
@@ -44,9 +61,29 @@
       <div class="popup__container">
         <h3 class="popup__title">Editar perfil</h3>
         <button class="popup__close" type="button" aria-label="Close"></button>
-        <form class="form__profile" name="editProfile">
-          <input class="form__input form__input_type_name" aria-label="Nombre" type="text" name="profileName" value="Jacques Cousteau" placeholder="Nombre" required minlength="2" maxlength="40">
-          <input class="form__input form__input_type_description" aria-label="Acerca de mí" type="text" name="profileAboutMe" value="Explorador" placeholder="Acerca de mí" minlength="2" maxlength="200" required>
+        <form class="form__profile-edit" name="editProfile">
+          <input
+            class="form__input form__input_type_name"
+            aria-label="Nombre"
+            type="text"
+            name="profileName"
+            value="Jacques Cousteau"
+            placeholder="Nombre"
+            required
+            minlength="2"
+            maxlength="40"
+          />
+          <input
+            class="form__input form__input_type_description"
+            aria-label="Acerca de mí"
+            type="text"
+            name="profileAboutMe"
+            value="Explorador"
+            placeholder="Acerca de mí"
+            minlength="2"
+            maxlength="200"
+            required
+          />
           <button class="form__submit" type="submit">Guardar</button>
         </form>
       </div>
@@ -57,33 +94,57 @@
         <h3 class="popup__title">Nuevo lugar</h3>
         <button class="popup__close" type="button" aria-label="Close"></button>
         <form class="form__add-card" name="addCard">
-          <input class="form__input form__input_type_card-title" aria-label="Título" type="text" name="newCardTitle" placeholder="Título" minlength="1" maxlength="30" required>
-          <input class="form__input form__input_type_url" aria-label="Enlace a la imagen" type="url" name="newCardImage" placeholder="Enlace a la imagen" required>
+          <input
+            class="form__input form__input_type_card-title"
+            aria-label="Título"
+            type="text"
+            name="newCardTitle"
+            placeholder="Título"
+            minlength="1"
+            maxlength="30"
+            required
+          />
+          <input
+            class="form__input form__input_type_url"
+            aria-label="Enlace a la imagen"
+            type="url"
+            name="newCardImage"
+            placeholder="Enlace a la imagen"
+            required
+          />
           <button class="form__submit" type="submit">Crear</button>
         </form>
       </div>
     </div>
 
-      <div class="popup popup_type_image">
-        <div class="popup__container popup__container_figure">
-          <button class="popup__close" type="button" aria-label="Close"></button>
-          <figure class="popup__figure">
-            <img class="popup__image" src="link" alt="name">
-            <figcaption class="popup__image-title"></figcaption>
-          </figure>
-        </div>
+    <div class="popup popup_type_image">
+      <div class="popup__container popup__container_figure">
+        <button class="popup__close" type="button" aria-label="Close"></button>
+        <figure class="popup__figure">
+          <img class="popup__image" src="link" alt="name" />
+          <figcaption class="popup__image-title"></figcaption>
+        </figure>
       </div>
+    </div>
 
-      <template class="photo-card-template">
-        <li class="photo-card">
-          <button class="photo-card__delete-button" type="button" aria-label="Delete"></button>
-          <img class="photo-card__image" src="link" alt="name">
-          <div class="photo-card__info">
-            <h2 class="photo-card__title"></h2>
-            <button class="photo-card__heart" type="button" aria-label="Like"></button>
-          </div>
-        </li>
-      </template>
+    <template class="photo-card-template">
+      <li class="photo-card">
+        <button
+          class="photo-card__delete-button"
+          type="button"
+          aria-label="Delete"
+        ></button>
+        <img class="photo-card__image" src="link" alt="name" />
+        <div class="photo-card__info">
+          <h2 class="photo-card__title"></h2>
+          <button
+            class="photo-card__heart"
+            type="button"
+            aria-label="Like"
+          ></button>
+        </div>
+      </li>
+    </template>
 
     <script src="scripts/index.js"></script>
   </body>
