@@ -58,7 +58,7 @@ const initialCards = [
   }
 ];
 
-//Initial cards on page
+// Initial cards on page
 initialCards.forEach((data) => {
   const startingCards = addCard(data.name, data.link);
   list.append(startingCards);
@@ -88,16 +88,27 @@ function addCard(name, link) {
     listItem.remove();
   });
 
+  //Popup Image visualize
+  cardImage.addEventListener("click", () => {
+    const popupPhoto = imagePopup.querySelector(".popup__image");
+    const popupPhotoTitle = imagePopup.querySelector(".popup__image-title");
+
+    popupPhoto.src = link;
+    popupPhotoTitle.textContent = name;
+
+    togglePopup(imagePopup);
+  });
+
   return cardElement;
 };
 
 
-// Popup toggle
+//Popup toggle
 function togglePopup(modal) {
   modal.classList.toggle("popup_opened");
 }
 
-// Button listeners
+//Button listeners
 closeProfileButton.addEventListener('click', () => {
   togglePopup(profileInfoPopup);
 });
@@ -115,7 +126,7 @@ closeImageButton.addEventListener('click', () => {
 });
 
 
-// Profile info submit
+//Profile info submit
 function submitProfileInfo(e) {
   e.preventDefault();
   profileName.textContent = nameInput.value;
