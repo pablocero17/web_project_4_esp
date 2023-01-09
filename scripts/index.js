@@ -81,7 +81,11 @@ function addCard(name, link) {
     if (evt.target.classList.contains("photo-card__heart")) {
       evt.target.classList.toggle("photo-card__heart_active");
     }
+  });
 
+  cardDeleteButton.addEventListener("click", () => {
+    const listItem = cardDeleteButton.closest(".photo-card");
+    listItem.remove();
   });
 
   return cardElement;
