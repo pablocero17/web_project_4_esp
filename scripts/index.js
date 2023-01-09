@@ -70,12 +70,19 @@ function addCard(name, link) {
   const cardElement = cardTemplate.cloneNode(true);
   const cardImage = cardElement.querySelector(".photo-card__image");
   const cardTitle = cardElement.querySelector(".photo-card__title");
-  // const cardLikeButton = cardElement.querySelector(".photo-card__heart");
-  // const cardDeleteButton = cardElement.querySelector(".photo-card__delete-button");
+  const cardLikeButton = cardElement.querySelector(".photo-card__heart");
+  const cardDeleteButton = cardElement.querySelector(".photo-card__delete-button");
 
   cardTitle.textContent = name;
   cardImage.src = link;
   cardImage.alt = name;
+
+  cardLikeButton.addEventListener("click", (evt) => {
+    if (evt.target.classList.contains("photo-card__heart")) {
+      evt.target.classList.toggle("photo-card__heart_active");
+    }
+
+  });
 
   return cardElement;
 };
