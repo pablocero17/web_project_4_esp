@@ -13,7 +13,7 @@ const closeAddCardButton = newCardPopup.querySelector('.popup__close');
 const closeImageButton = imagePopup.querySelector('.popup__close');
 
 //Forms
-const profileForm = document.querySelector('.form__profile-edit');
+const profileForm = document.querySelector('.form__profile');
 const newCardForm = document.querySelector('.form__add-card');
 
 //Profile elements
