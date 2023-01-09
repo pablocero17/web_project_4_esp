@@ -1,16 +1,16 @@
-# Proyecto 4: Alrededor de los Estados Unidos
+# Proyecto 5: Alrededor de los Estados Unidos
 
 **Elaborado por: Pablo César Rodríguez Vargas**
 
 ### Descripción general
 
-Alrededores de U.S. es un proyecto producirá una página interactiva en varios sprints donde los usuarios pueden agregar, eliminar o dar me gusta a las fotos.
+Continuando con la creación del proyecto interactivo "Alrededores de U.S". La página comenzó con el Proyecto 4, abarcando varios springs en donde se realiza una interfaz que permite al usuria editar la información de su perfial mediante un formulario. Ahora se prosigue en el Proyecto 5 un nuevo la inclusión de un nuevo formulario modal que permite agrega nuevas fotos a la página, así como la capacidad de dar o interactuar con el logo me gusta, eliminar las targetas de fotografias y mostrar en unav vista previa de mayor tamaño las fotos. 
 
 **Figma**
 
 En el siguiente enlace pueden acceder al Figma donde se basa el diseño:
 
-- [Enlace al proyecto en Figma](https://www.figma.com/file/zXzLVGc4KNVm3FMTsAnQnH/WEB%2C-Sprint-4%3A-Alrededor-de-los-EEUU-%7C-desktop-%2B-mobile?node-id=0%3A1)
+- [Enlace al proyecto en Figma](https://www.figma.com/file/ioanjgLLuVNMBLs1z2woGZ/WEB%2C-Sprint-5%3A-Alrededor-de-los-EE.UU.-%7C-desktop-%2B-mobile)
 
 ### Funcionalidad y tecnologías demostradas
 
