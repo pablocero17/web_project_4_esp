@@ -106,7 +106,7 @@ function addCard(name, link) {
 //Popup toggle
 function togglePopup(modal) {
   modal.classList.toggle("popup_opened");
-}
+};
 
 //Button listeners
 closeProfileButton.addEventListener('click', () => {
@@ -132,7 +132,7 @@ function submitProfileInfo(e) {
   profileName.textContent = nameInput.value;
   profileDescription.textContent = descriptionInput.value;
   togglePopup(profileInfoPopup);
-}
+};
 
 profileForm.addEventListener('submit', submitProfileInfo);
 profileButton.addEventListener('click', () => {
@@ -143,7 +143,16 @@ profileButton.addEventListener('click', () => {
   togglePopup(profileInfoPopup);
 });
 
+//Add new card on page
+function addPlace(e) {
+  e.preventDefault();
+  const newCard = addCard(titleInput.value, imageLinkInput.value);
+  list.prepend(newCard);
+  newCardForm.reset();
+  togglePopup(newCardPopup);
+};
 
+newCardForm.addEventListener("submit", addPlace);
 
 
 
