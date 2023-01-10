@@ -59,60 +59,70 @@
 
     <div class="popup popup_type_edit-profile">
       <div class="popup__container">
-        <h3 class="popup__title">Editar perfil</h3>
-        <button class="popup__close" type="button" aria-label="Close"></button>
+        <h3 class="popup__title">Edit profile</h3>
+        <button type="button" aria-label="Close" class="popup__close"></button>
         <form class="form__profile-edit" name="editProfile">
           <input
-            class="form__input form__input_type_name"
-            aria-label="Nombre"
+            aria-label="Name"
             type="text"
+            class="form__input form__input_type_name"
             name="profileName"
             value="Jacques Cousteau"
-            placeholder="Nombre"
+            placeholder="Name"
             minlength="2"
             maxlength="40"
+            aria-required="true"
             required
           />
           <input
-            class="form__input form__input_type_description"
-            aria-label="Acerca de mí"
+            aria-label="About me"
             type="text"
+            class="form__input form__input_type_description"
             name="profileAboutMe"
-            value="Explorador"
-            placeholder="Acerca de mí"
+            value="Explorer"
+            placeholder="About me"
             minlength="2"
             maxlength="200"
+            aria-required="true"
             required
           />
-          <button class="form__submit" type="submit">Guardar</button>
+          <button type="submit" class="form__submit">Save</button>
         </form>
       </div>
     </div>
 
     <div class="popup popup_type_add-card">
       <div class="popup__container">
-        <h3 class="popup__title">Nuevo lugar</h3>
-        <button class="popup__close" type="button" aria-label="Close"></button>
+        <h3 class="popup__title">New place</h3>
+        <button type="button" aria-label="Close" class="popup__close"></button>
         <form class="form__add-card" name="addCard">
           <input
-            class="form__input form__input_type_card-title"
-            aria-label="Título"
+            aria-label="Title"
             type="text"
-            name="newCardTitle"
-            placeholder="Título"
+            class="form__input form__input_type_card-title"
+            name="name"
+            placeholder="Title"
             minlength="1"
             maxlength="30"
+            aria-required="true"
             required
           />
           <input
-            class="form__input form__input_type_url"
-            aria-label="Enlace a la imagen"
+            aria-label="Image URL"
             type="url"
-            name="newCardImage"
-            placeholder="Enlace a la imagen"
+            class="form__input form__input_type_url"
+            name="link"
+            placeholder="Image link"
+            aria-required="true"
             required
           />
-          <button class="form__submit" type="submit">Crear</button>
+          <button
+            type="submit"
+            class="form__submit form__submit_disabled"
+            disabled
+          >
+            Create
+          </button>
         </form>
       </div>
     </div>
